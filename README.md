@@ -20,7 +20,13 @@ The entry point for the public site is `./public/index.html`. Notice within that
 
 Notice also in `./public/index.tsx` the way the library is imported, and the use of `~lib` dependency path. This can also be `~lib/foo/file` etc..
 
-If you just wanted to build a library you could delete:
+## Streamlining
+
+If you just wanted to build a web app you could remove line `14` of `tsconfig.json` and delete:
+
+* `./lib`
+
+If you just wanted to build a library you could remove line `15` of `tsconfig.json` and delete:
 
 * `./index.html`
 * `./public`
