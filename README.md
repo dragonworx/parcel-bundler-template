@@ -22,7 +22,7 @@ Notice also in `./public/index.tsx` the way the library is imported, and the use
 
 ## Streamlining
 
-If you just wanted to build a web app you could remove line `14` of `tsconfig.json` and delete:
+If you just wanted to build a web app you could remove lines `8,14` of `tsconfig.json` and delete:
 
 * `./lib`
 
